@@ -17,8 +17,6 @@ jobs:
       PORT: 8080
     environment: testing
     runs-on: ubuntu-latest
-    container:
-      image: node:20
     services: # services keyword is to create Service Containers (container that runs jobs on paralell databse so that I do not call production DB)
       mongodb:
         image: mongo
