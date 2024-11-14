@@ -10,7 +10,7 @@ env:
 jobs:
   test:
     env:
-      MONGODB_CONNECTION_PROTOCOL: mongodb #mongodb+srv
+      MONGODB_CONNECTION_PROTOCOL: mongodb+srv
       MONGODB_CLUSTER_ADDRESS: 127.0.0.1:27017 # This is required for mongo
       MONGODB_USERNAME: root #${{ secrets.MONGODB_USERNAME}}
       MONGODB_PASSWORD: example #${{ secrets.MONGODB_PASSWORD}}
