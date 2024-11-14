@@ -44,4 +44,4 @@ jobs:
         run: |        
           echo "MONGODB_USERNAME: ${{ env.MONGODB_USERNAME }}"
           echo "MONGODB_NAME: $MONGODB_DB_NAME"
-          echo ${{ env.PORT }}"
+          echo "${{ env.PORT }}"
